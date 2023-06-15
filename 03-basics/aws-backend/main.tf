@@ -25,7 +25,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket        = "my-bucket-state" # REPLACE WITH YOUR BUCKET NAME
+  bucket        = "interesting-bucket" # REPLACE WITH YOUR BUCKET NAME
   force_destroy = true
 }
 
