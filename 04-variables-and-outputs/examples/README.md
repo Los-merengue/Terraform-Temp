@@ -1,5 +1,15 @@
 # Variables
 
+## Setting Input Variables (In order of Precedence // lowest -> highest)
+
+- Manual Entry during plan/apply
+- Default Value in Declaration block
+- TF_VAR_<name> environment variables
+- terraform.tfvars file
+- *.auto.tfvars file
+- Command line -var or -var-file
+
+
 ## Variable block
 
 must define variable block
