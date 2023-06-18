@@ -23,3 +23,5 @@ provider “aws” {
 ### File Structire (Environments + Components)
 - Further separation (at logical component groups) useful for larger projects : This will isolate things that chanhe frequently from those which don't
 - Referencing resources across configuration is possible using terraform_remote_state
+
+Look into the tool `Terragrunt`
