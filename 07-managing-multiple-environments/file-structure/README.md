@@ -9,3 +9,17 @@ provider “aws” {
   }
 }
 ```
+
+### File Structure 
+
+#### Pros
+- Isolation of backends: This can lead to improved security and decreased potential for human error
+- Codebase fully represents deployed state
+
+#### Cons
+- Multiple terraform apply required to provision environments
+- More code duplication, but can be minimized with modules!
+
+### File Structire (Environments + Components)
+- Further separation (at logical component groups) useful for larger projects : This will isolate things that chanhe frequently from those which don't
+- Referencing resources across configuration is possible using terraform_remote_state
