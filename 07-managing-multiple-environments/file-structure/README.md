@@ -26,7 +26,7 @@ provider “aws” {
 
 Look into the tool `Terragrunt`
 
-Tool by gruntwork.io that provides utilities to make certain Terraform use cases easier
+Tool by [gruntwork.io](https://terragrunt.gruntwork.io/) that provides utilities to make certain Terraform use cases easier
 - Keeping Terraform code DRY
 - Executing commands across multiple TF configs
 - Working with multiple cloud accounts
