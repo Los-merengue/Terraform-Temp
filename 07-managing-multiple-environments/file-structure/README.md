@@ -25,3 +25,8 @@ provider “aws” {
 - Referencing resources across configuration is possible using terraform_remote_state
 
 Look into the tool `Terragrunt`
+
+Tool by gruntwork.io that provides utilities to make certain Terraform use cases easier
+- Keeping Terraform code DRY
+- Executing commands across multiple TF configs
+- Working with multiple cloud accounts
